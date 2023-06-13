@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Fourth</title>
+</head>
+<body>
+    <h1>Payment Form</h1>
+
+    <p>Required fields are followed by *.</p>
+
+    <h2>Contact Information</h2>
+
+    <form >
+        <fieldset>
+            <legend>Title</legend>
+
+            <input type="radio" id="radio1">
+            <label for="radio1">King</label>
+            <br>
+
+            <input type="radio" id="radio2">
+            <label for="radio2">Queen</label>
+            <br>
+
+            <input type="radio" id="radio3">
+            <label for="radio3">Joker</label>
+
+            <br>
+        </fieldset>
+
+        <br>
+
+        <label for="name">Name: *</label>
+      <!-- <br /> -->
+      <input type="text" name="name" id="name" required/>
+
+      <br /><br />
+
+      <label for="email">Email: *</label>
+      <!-- <br /> -->
+      <input type="email" name="email" id="email" required/>
+
+      <br /><br />
+
+      <label for="pass">Password: *</label>
+      <!-- <br /> -->
+      <input type="password" name="pass" id="pass" required/>
+
+      <h2>Payment Information</h2>
+
+      <label for="card">Card Type:</label>
+      <select name="cardtype" id="card">
+        <option value="visa">Visa</option>
+        <option value="mastercard">Mastercard</option>
+        <option value="rupay">Rupay</option>
+        <option value="American Express">American Express</option>
+      </select>
+
+      <br><br>
+
+      <label for="cardNum">Card Number: *</label>
+      <!-- <br /> -->
+      <input type="number" name="cardNum" id="cardNum" required/>
+
+      <br /><br />
+
+      <label for="exp">Expiration date: *</label>
+      <!-- <br /> -->
+      <input type="text" name="exp" id="exp" required placeholder="MM/YY" />
+
+      <br /><br />
+
+      <input type="submit" value="Validate the payment">
+    </form>
+</body>
+</html>
