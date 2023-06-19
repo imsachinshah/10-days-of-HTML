@@ -17,7 +17,7 @@ I am sharing my everday learning progress Daily about HTML.
 
 ## Contact
 
-I am learning web development. 
+I am learning web development.
 
 Let's connect on social handles and join my journey.
 
